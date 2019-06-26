@@ -20,7 +20,7 @@ public class FirstController {
         parmterMap.put("PersonId",person.getPersonId().toString());
         parmterMap.put("Pname",person.getPname());
         parmterMap.put("Page", String.valueOf(person.getPage()));
-        System.out.println("hello");
+        System.out.println("hi");
         return JSON.toJSONString(parmterMap);
     }
 }
